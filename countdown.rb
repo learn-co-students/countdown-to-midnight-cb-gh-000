@@ -4,7 +4,7 @@ def countdown(n)
 
   while n > 0 do
     if n > 1
-      puts "#{n} SECONDS!"
+      puts "#{n} SECOND(S)!"
       n -= 1
       sleep(1)
     end
