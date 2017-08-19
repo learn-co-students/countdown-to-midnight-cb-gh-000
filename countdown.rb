@@ -3,12 +3,16 @@
 def countdown(n)
 
   while n > 0 do
-    if n > 1
-      puts "#{n} SECOND(S)!"
+      countdown_with_sleep(n)
       n -= 1
-      sleep(1)
-    end
-    "HAPPY NEW YEAR!"
   end
 
+    "HAPPY NEW YEAR!"
 end
+
+def countdown_with_sleep(n)
+  puts "#{n} SECOND(S)!"
+  sleep(n)
+end
+
+countdown(2)
