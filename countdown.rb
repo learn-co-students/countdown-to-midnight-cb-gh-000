@@ -10,9 +10,9 @@ def countdown(num)
 end
 
 def countdown_with_sleep(num)
-  sleep(5.second)
   cont=num
   while cont != 0
+    sleep 1
     puts "#{cont} SECOND(S)!"
     cont-=1
   end
