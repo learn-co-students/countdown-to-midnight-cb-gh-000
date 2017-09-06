@@ -9,8 +9,10 @@ def countdown seconds
 end
 
 def countdown_with_sleep seconds
-  sleep(seconds)
   seconds.times do
+    sleep(1)
+    seconds -= 1
     puts "#{seconds} seconds"
   end
+  return "HAPPY NEW YEAR!"
 end
