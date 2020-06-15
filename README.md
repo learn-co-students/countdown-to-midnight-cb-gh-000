@@ -22,7 +22,7 @@ end
 ```
 Will print this:
 
-```
+```j
 1 is less than 10
 2 is less than 10
 3 is less than 10
